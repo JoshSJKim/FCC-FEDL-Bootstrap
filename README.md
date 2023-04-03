@@ -30,3 +30,15 @@ Intro to Bootstrap
 ```html
 <img class="img-responsive" scr="https://...jpg/>
 ```
+
+## Center Text with Bootstrap
+
+- Add `class="text-center"` to an element to center the text
+- Remember, several classes can be added to the same element by separating with a whitespace.
+
+Example
+
+```html
+<h2 class="red-text text-center">Text</h2>
+```
+
