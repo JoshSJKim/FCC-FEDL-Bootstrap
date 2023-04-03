@@ -70,3 +70,32 @@ Example
 ```html
 <button class="btn btn-block btn-danger">Delete</button>
 ```
+
+## Use the Bootstrap Grid Element to Put Elements Side By Side
+
+- Bootstrap uses a responsive 12-column grid system, making it easy to put elements into rows and specify each element width.
+- Most bootstrap classes can be applied to a `div` element.
+
+- Bootstrap has different column width attributes applied based on the width of the user screen.
+- One example would be `class="col-md-*"`
+  - `md` refers to medium, which would correspond to laptops.
+  - `xs` refers to extra small screens, such as mobile phones.
+  - `*` refers to how many columns wide the element should be.
+
+Example
+
+```html
+<div class="row">
+  <div class="col-xs-4">
+    <button class="btn btn-block btn-primary">Like</button>
+  </div>
+  <div class="col-xs-4">
+    <button class="btn btn-block btn-info">Info</button>
+  </div>
+  <div class="col-xs-4">
+    <button class="btn btn-block btn-danger">Delete</button>
+  </div>
+</div>
+```
+
+- The above code will place each button of equal width in a row
