@@ -22,3 +22,11 @@ Intro to Bootstrap
 - Bootstrap will figure out how wide the screen is and respond by resizing the HTML elements.
 
 - Get the HTML code to respond to Bootstrap by adding the appropriate `link` (shown above), and nest all HTML (all elements that you wish to respond to bootstrap fluid container) in a `div` element with `class = "container-fluid"`
+
+## Make Images Mobile Responsive
+
+- Use `img-responsive` in an `<img>` tag to get the image fit the exact with of the screen
+
+```html
+<img class="img-responsive" scr="https://...jpg/>
+```
