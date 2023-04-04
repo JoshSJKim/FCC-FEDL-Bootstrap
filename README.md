@@ -99,3 +99,12 @@ Example
 ```
 
 - The above code will place each button of equal width in a row
+
+## Ditch Custom CSS for Bootstrap
+
+- Use bootstrap's built-in styles to clean up your code
+
+### Use a span to Target Inline Elements
+
+- Use spans to create inline elements
+  - It allows you to put several elements on the same line, and even apply different styles to different parts in the same line.
