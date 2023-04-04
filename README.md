@@ -108,3 +108,32 @@ Example
 
 - Use spans to create inline elements
   - It allows you to put several elements on the same line, and even apply different styles to different parts in the same line.
+
+Example
+
+```html
+<p>Things cats <span class="text-danger">love</span>:</p>
+```
+
+- The above code will apply the "text-danger" font color to the text "love"
+
+### Create a custom heading
+
+- Bootstrap uses a responsive grid system, which makes it easy to put elements into rows and specify its relative width.
+- Most bootstrap classes can be applied to a `div` element
+
+example
+
+```html
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-8">
+      <h2 class="text-primary text-center">CatPhotoApp</h2>
+    </div>
+    <div class="col-xs-4">
+      <a href="#"><img class="img-responsive thick-green-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+    </div>
+  </div>
+...
+</div>
+```
