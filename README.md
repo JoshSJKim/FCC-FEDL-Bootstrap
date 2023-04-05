@@ -137,3 +137,25 @@ example
 ...
 </div>
 ```
+
+## Add Font Awesome Icons to Buttons
+
+- Font Awesome is a convenient library of icons.
+- These icons can be webfonts or vector graphics, and are treated just like fonts.
+- Specify size using pixels, and they will assume the font size of their parent HTML elements
+
+- Use the following code at the top of the HTML to include Font Awesome in any app
+
+```html
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+```
+
+- `i` was commonly used to make text elements italic, but it is now generally used for `icons`
+
+example
+
+```html
+<i class="fas fa-thumbs-up"></i>
+<i class="fas fa-info-circle"></i>
+<i class="fas fa-trash"></i>
+```
