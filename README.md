@@ -194,3 +194,20 @@ example
 ```html
 <input type="text" class="form-control" placeholder="cat photo URL" required>
 ```
+
+## Line up Form Elements Responsively with Bootstrap
+
+- Use `<div class="row">` and `<div class="col-xx-*>"` to place form elements such as inputs and buttons in-line.
+
+```html
+<div class="row">
+  <div class="col-xs-7">
+    <input type="text" class="form-control" placeholder="cat photo URL" required>
+  </div>
+  <div class="col-xs-5">
+    <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button>
+  </div>
+</div>
+```
+
+---
