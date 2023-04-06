@@ -185,3 +185,12 @@ example
 
 - nest all elements you wish to apply bootstrap to with `<div class="row">`
 - nest each element within `<div class="row">` with `<div class="col-xx-*">`
+
+## Style Text Inputs as Form Controls
+
+- Use `form-control` class on textual `inputs`, `textarea`, and `select` elements to achieve consistent styling throughout the page.
+- When applied, the applicable element will have 100% width
+
+```html
+<input type="text" class="form-control" placeholder="cat photo URL" required>
+```
