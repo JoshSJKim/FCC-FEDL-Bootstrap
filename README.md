@@ -167,3 +167,18 @@ example
 ```
 
 - Remember to put a space between the text and the font icon to add space.
+
+## Responsively Style Radio Buttons/Checkboxes
+
+- Use `col-xs-*` class on `form` elements to evenly spread out radio buttons across the page, regardless of the screen size
+
+```html
+<div class="row">   
+  <div class="col-xs-6">
+    <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+  </div>
+  <div class="col-xs-6">
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+  </div>
+</div>
+```
