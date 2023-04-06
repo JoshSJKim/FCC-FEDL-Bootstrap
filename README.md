@@ -182,3 +182,6 @@ example
   </div>
 </div>
 ```
+
+- nest all elements you wish to apply bootstrap to with `<div class="row">`
+- nest each element within `<div class="row">` with `<div class="col-xx-*">`
