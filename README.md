@@ -159,3 +159,11 @@ example
 <i class="fas fa-info-circle"></i>
 <i class="fas fa-trash"></i>
 ```
+
+- Note that the icon font can be placed before or after the text, and the text does not have to wrapped in the `<i>` tags.
+
+```html
+<button class="btn btn-block btn-primary"><i class="fas fa-thumbs-up"></i> Like</button>
+```
+
+- Remember to put a space between the text and the font icon to add space.
