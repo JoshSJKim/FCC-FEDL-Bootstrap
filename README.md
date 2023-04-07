@@ -257,3 +257,32 @@ example
 - It is important to note that the code inside the `function` will run as soon as the browser loads the page.
 - This is important because without the `document ready function`, the code may run before the HTML is rendered, which could lead to bugs.
 
+## Target HTML Elements with Selectors Using jQuery
+
+- All jQuery functions start with a `$`, referred to as the dollar sign operator, or just `bling`
+- jQuery often selects an HTML element with a selector and does something with it.
+- For example, in order to make the `button` elements bounce, add the following code to the `document ready function`.
+
+```js
+$("button").addClass("animated bounce");
+```
+
+- Note that jQuery library and Animate.css library must be included in the code to access its features.
+
+## Target Elements by Class/id Using jQuery
+
+- Use `$(" ")` to select an element, a class, or id.
+- Just like in css, use `.` to access a class, and `#` to access an id.
+- then add `.addClass(" ")` to add the desired css feature.
+
+```html
+<script>
+  $(document).ready(function() {
+    $("button").addClass("animated bounce");
+    $(".well").addClass("animated shake");
+    $("#target3").addClass("animated fadeout")
+  });
+</script>
+```
+
+
