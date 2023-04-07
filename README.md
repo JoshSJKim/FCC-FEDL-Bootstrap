@@ -239,3 +239,21 @@ example
   </div>
 </div>
 ```
+
+## Learn How Script Tas and Document Ready Work
+
+- In order to use jQuery, we need to add some things to the HTML code
+- We need a `<script>` element. The browser will run any JS code inside a `<script>` element, including jQuery.
+- Inside the `<script>` element, add the following
+
+```html
+<script>
+  $(document).ready(function() {
+
+  });
+</script>
+```
+
+- It is important to note that the code inside the `function` will run as soon as the browser loads the page.
+- This is important because without the `document ready function`, the code may run before the HTML is rendered, which could lead to bugs.
+
