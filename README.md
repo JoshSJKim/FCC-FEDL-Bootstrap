@@ -393,7 +393,7 @@ $("button").addClass("animated bounce");
 - Notice you can chain functions together.
 - The above code will clone #target5 and add it to #left-well.
 
-## Target the Parent of an Element using jQuery
+## Target the Parent/children of an Element using jQuery
 
 - Every HTML element has a parent element from which it inherits properties
 - jQuery has a function called `.parent()` that allows you to access the parent of whichever element you've selected.
@@ -402,8 +402,10 @@ $("button").addClass("animated bounce");
 <script>
   $(document).ready(function() {
     $("#target1").parent().css("background-color", "red")
+    $("#right-well").children().css("color", "orange");
   });
 </script>
 ```
 
 - The above code will target the parent element of #target1 and give it a background color of 'red'.
+- The above code will target the children elements of #right-well and give the text the color 'orange'.
