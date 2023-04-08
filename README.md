@@ -397,6 +397,7 @@ $("button").addClass("animated bounce");
 
 - Every HTML element has a parent element from which it inherits properties
 - jQuery has a function called `.parent()` that allows you to access the parent of whichever element you've selected.
+- It also has a function called `.children()` that targets the elements nested in a parent element.
 
 ```html
 <script>
