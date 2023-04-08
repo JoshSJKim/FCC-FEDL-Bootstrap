@@ -377,3 +377,18 @@ $("button").addClass("animated bounce");
 
 - `#target2` was initially in the div containing `<h4>#left-well<h4>`
 - `.appendTo("#right-well")` will move `#target2` to the div containing `<h4>#right-well</h4>`
+
+## Clone an Element Using jQuery
+
+- Clone elements by using `.clone()` function
+
+```html
+<script>
+  $(document).ready(function() {
+    $("#target5").clone().appendTo("#left-well");
+  });
+</script>
+```
+
+- Notice you can chain functions together.
+- The above code will clone #target5 and added to #left-well.
