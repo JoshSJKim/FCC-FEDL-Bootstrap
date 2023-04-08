@@ -362,3 +362,18 @@ $("button").addClass("animated bounce");
   });
 </script>
 ```
+
+## Use appendTo to Move Elements with jQuery
+
+- use `.appendTo()` function to move elements from one div to another.
+
+```html
+<script>
+  $(document).ready(function() {
+    $("#target2").appendTo("#right-well")
+  });
+</script>
+```
+
+- `#target2` was initially in the div containing `<h4>#left-well<h4>`
+- `.appendTo("#right-well")` will move `#target2` to the div containing `<h4>#right-well</h4>`
