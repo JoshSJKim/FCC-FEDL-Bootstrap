@@ -331,3 +331,15 @@ $("button").addClass("animated bounce");
   - the property and its values are in quotes
   - separated with comma rather than a colon
 
+## Disable an Element using jQuery
+
+- change non-CSS properties of HTML elements with jQuery, such as disabling buttons.
+- use the `.prop()` function to adjust the properties of elements
+
+```html
+<script>
+  $(document).ready(function() {
+    $("#target1").prop("disabled", true);
+  });
+</script>
+```
