@@ -343,3 +343,22 @@ $("button").addClass("animated bounce");
   });
 </script>
 ```
+
+## Change Text Inside an Element using jQuery
+
+- Change the text between the start and end tags of an element using jQuery. You can also change HTML markup.
+- Use `.html()` function to add HTML tags and text within an element.
+- Any previous element content will be replaced with the new input content.
+
+- jQuery also has a similar function called `.text()`, which only alters the text without adding tags.
+- i.e., it will not apply any HTML tags passed to it.
+
+```html
+<script>
+  $(document).ready(function() {
+    $("#target1").css("color", "red");      
+    $("#target4").html("<em>#target4</em>") // This will emphasize the text '#target4'.
+                                            // if you replace the `.html()` with `.text()`, it will display '<em>#target4</em>`
+  });
+</script>
+```
