@@ -299,3 +299,18 @@ $("button").addClass("animated bounce");
   });
 </script>
 ```
+
+## Remove Classes from an Element with jQuery
+
+- In order to remove classes from an element, use the same method used to add classes to an element.
+
+```html
+<script>
+  $(document).ready(function() {
+    $("button").addClass("animated bounce");
+    $(".well").addClass("animated shake");
+    $("#target3").addClass("animated fadeOut");
+    $("button").removeClass("btn-default");   // use 'removeClass()'
+  });
+</script>
+```
