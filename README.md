@@ -314,3 +314,20 @@ $("button").addClass("animated bounce");
   });
 </script>
 ```
+
+## Change the CSS of an Element using jQuery
+
+- Change the css of an HTML element directly with jQuery by using `.css()` function.
+
+```html
+<script>
+  $(document).ready(function() {
+    $("#target1").css("color", "red");
+  });
+</script>
+```
+
+- the format is slightly different from a regular CSS declaration
+  - the property and its values are in quotes
+  - separated with comma rather than a colon
+
