@@ -285,4 +285,17 @@ $("button").addClass("animated bounce");
 </script>
 ```
 
+## Target te Same Element with Multiple jQuery Selectors
 
+- The above example shows the different methods of targeting elements - type, class, and id
+- It is possible to add multiple classes in a single `addClass()`, but there is another way to apply multiple classes to elements
+
+```html
+<script>
+  $(document).ready(function() {
+    $("button").addClass("animated"); // targets all button elements
+    $(".btn").addClass("shake");      // targets class .btn
+    $("#target1").addClass("btn-primary") // targets id target1
+  });
+</script>
+```
