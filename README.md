@@ -434,7 +434,7 @@ $("button").addClass("animated bounce");
 
 - Note the use of `.target:` selector
 
-## Target Even Elements Using jQuery
+## Target Odd/Even Elements Using jQuery
 
 - target elements using `:odd` or `:even` selectors
 - Note that jQuery is `zero-indexed`
@@ -453,6 +453,18 @@ $("button").addClass("animated bounce");
     $("#left-well").children().css("color", "green");
     $(".target:nth-child(2)").addClass("animated bounce");
     $(".target:even").addClass("animated shake"); // :even will select 1st and 3rd index elements
+  });
+</script>
+```
+
+## Use jQuery to Modify the Entire Page
+
+- jQuery can target the `body` element as well.
+
+```html
+<script>
+  $(document).ready(function() {
+    $("body").addClass();   // add animated functions such as "fadeOut" or "hinge"
   });
 </script>
 ```
