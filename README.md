@@ -431,3 +431,28 @@ $("button").addClass("animated bounce");
   });
 </script>
 ```
+
+- Note the use of `.target:` selector
+
+## Target Even Elements Using jQuery
+
+- target elements using `:odd` or `:even` selectors
+- Note that jQuery is `zero-indexed`
+  - This may cause some confusion because `:odd` will select the second (index 1) and fourth(index 3), etc.
+
+```html
+<script>
+  $(document).ready(function() {
+    $("#target1").css("color", "red");
+    $("#target1").prop("disabled", true);
+    $("#target4").remove();
+    $("#target2").appendTo("#right-well");
+    $("#target5").clone().appendTo("#left-well");
+    $("#target1").parent().css("background-color", "red");
+    $("#right-well").children().css("color", "orange");
+    $("#left-well").children().css("color", "green");
+    $(".target:nth-child(2)").addClass("animated bounce");
+    $(".target:even").addClass("animated shake"); // :even will select 1st and 3rd index elements
+  });
+</script>
+```
