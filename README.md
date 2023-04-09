@@ -410,3 +410,24 @@ $("button").addClass("animated bounce");
 
 - The above code will target the parent element of #target1 and give it a background color of 'red'.
 - The above code will target the children elements of #right-well and give the text the color 'orange'.
+
+## Target a Specific Child of an Element Using jQuery
+
+- unique ids will not always be available to target directly.
+- use `.target:nth-child(n)` CSS selector to target specific child elements.
+- This will allow you to target all nth elements with the target class or element type.
+
+```html
+<script>
+  $(document).ready(function() {
+    $("#target1").css("color", "red");
+    $("#target1").prop("disabled", true);
+    $("#target4").remove();
+    $("#target2").appendTo("#right-well");
+    $("#target5").clone().appendTo("#left-well");
+    $("#target1").parent().css("background-color", "red");
+    $("#right-well").children().css("color", "orange");
+    $(".target:nth-child(2)").addClass("animated bounce");  // make second child in each left and right well bounce.
+  });
+</script>
+```
